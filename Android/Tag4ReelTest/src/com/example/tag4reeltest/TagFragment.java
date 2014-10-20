@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -59,7 +60,7 @@ public class TagFragment extends Fragment {
 
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(context,LoginActivity.class);
+				Intent intent = new Intent(TagFragment.this.getActivity(),LoginActivity.class);
 				startActivity(intent);
 			}
 			
