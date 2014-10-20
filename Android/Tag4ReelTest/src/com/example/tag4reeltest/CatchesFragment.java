@@ -19,7 +19,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-import com.example.loginwithswipe.R;
+import com.example.tag4reeltest.R;
 
 public class CatchesFragment extends Fragment {
 	/**
