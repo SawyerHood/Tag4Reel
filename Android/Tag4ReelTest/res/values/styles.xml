@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -19,6 +19,7 @@
     
     <!-- Custom theme that has no action bar. Used as main theme for application. -->
     <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@drawable/tag_4_real_splash_low_alpha</item>
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowContentOverlay">@null</item>

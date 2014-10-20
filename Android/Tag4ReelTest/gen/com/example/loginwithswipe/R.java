@@ -1079,8 +1079,10 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
         public static final int loginbuttonshape=0x7f020058;
-        public static final int tag_fish_small=0x7f020059;
-        public static final int tag_fish_small_rvs=0x7f02005a;
+        public static final int tag_4_real_splash=0x7f020059;
+        public static final int tag_4_real_splash_low_alpha=0x7f02005a;
+        public static final int tag_fish_small=0x7f02005b;
+        public static final int tag_fish_small_rvs=0x7f02005c;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
