@@ -10,5 +10,8 @@
     <string name="login_command">Login to tag a fish!</string>
     <string name="login_button_text">Log in</string>
     <string name="catches_header">Catches near you</string>
+    <string name="tag_string">TAG</string>
+    <string name="title_activity_insert">InsertActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
 
 </resources>

@@ -62,5 +62,17 @@ public class TagFragment extends Fragment {
 			}
 			
 		});
+		
+		Button tagButton = (Button) v.findViewById(R.id.tagButton);
+		
+		tagButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(TagFragment.this.getActivity(),InsertActivity.class);
+				startActivity(intent);
+			}
+			
+		});
 	}
 }
